@@ -53,24 +53,24 @@ class Pelanggan
 }
 
 $kendaraan1 = new Kendaraan();
-    $kendaraan1->nomor = "K001";
-    $kendaraan1->merk = "Toyota Avanza";
+    $kendaraan1->nomor = "KD01";
+    $kendaraan1->merk = "Mazda 3";
     $kendaraan1->jenis = "Mobil";
 
 $kendaraan2 = new Kendaraan();
-    $kendaraan2->nomor = "K002";
+    $kendaraan2->nomor = "KD02";
     $kendaraan2->merk = "Honda Vario";
     $kendaraan2->jenis = "Motor";
 
 $pelanggan1 = new Pelanggan();
-    $pelanggan1->id = "P001";
-    $pelanggan1->nama = "Andi";
-    $pelanggan1->alamat = "Mojosari";
+    $pelanggan1->id = "PL01";
+    $pelanggan1->nama = "Alia";
+    $pelanggan1->alamat = "Nganjuk";
 
 $pelanggan2 = new Pelanggan();
-    $pelanggan2->id = "P002";
-    $pelanggan2->nama = "Budi";
-    $pelanggan2->alamat = "Mojokerto";
+    $pelanggan2->id = "PL02";
+    $pelanggan2->nama = "Arga";
+    $pelanggan2->alamat = "Bandung";
 
 echo "<h1>SISTEM RENTAL KENDARAAN</h1>";
 
