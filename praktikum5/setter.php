@@ -1,0 +1,21 @@
+<?php 
+//setter untuk memberikan atau mengubah nilai property private
+class Mahasiswa {
+
+    private $nama;
+
+    public function setNama($nama) {
+        $this->nama = $nama;
+    }
+
+    public function getNama() {
+        return $this->nama;
+    }
+
+}
+$mhs1 = new Mahasiswa();
+   $mhs1->setNama("Andi");
+
+echo $mhs1->getNama();
+    
+?>
